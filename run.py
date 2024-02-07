@@ -26,7 +26,7 @@ Convert letters to numbers
 """
 def print_board(board):
     print("  A B C D E F G H")
-    print('--------------')
+    print('  --------------')
     row_number = 1
     # initializer
     for row in board:
