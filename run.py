@@ -3,18 +3,18 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 
-
-#GAME EXPLANATION
-#The computer will generate 5 ships on a board and 
+"""
+GAME EXPLANATION
+The computer will generate 5 ships on a board and 
 and then the player'll guess where those 5 ships are located.
 
 The player has one board GUESS_BOARD, where he will make his the guesses. 
 The other board HIDDEN_BOARD is where the computer 
 will generate randomly 5 ships, each in one cell.
 
-This is one layer game, and it will have only
+This is one player game, and it will have only
 two boards.
-
+"""
 # Legend
 # 'X' for placing battleship and hit battleship
 # ' ' for available space
@@ -23,9 +23,9 @@ two boards.
 from random import randint
 
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
-
-#This board holds our ships
-
+"""
+This board holds our ships
+"""
 GUESS_BOARD = [[' '] * 8 for x in range(8)]
 """
 This board holds enemy ships
