@@ -3,9 +3,9 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 
-"""
+
 #GAME EXPLANATION
-The computer will generate 5 ships on a board and 
+#The computer will generate 5 ships on a board and 
 and then the player'll guess where those 5 ships are located.
 
 The player has one board GUESS_BOARD, where he will make his the guesses. 
@@ -14,7 +14,7 @@ will generate randomly 5 ships, each in one cell.
 
 This is one layer game, and it will have only
 two boards.
-"""
+
 # Legend
 # 'X' for placing battleship and hit battleship
 # ' ' for available space
