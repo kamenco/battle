@@ -17,20 +17,27 @@ Please click on the link below to open the application.
  ![The game!](outline.png "The outline from ami.responsivedesign")
 
 
- ### Welcome to the Battleship game! [Battleship](https://battle-d964f125f218.herokuapp.com/)
+ ### Welcome to the Battleship game!
+ 
+ [Battleship](https://battle-d964f125f218.herokuapp.com/)
 
 ## FEATURES
 
 This is one player game, and it has only
-two boards.
+two boards. The computer generates five ships on the HIDDEN_BOARD
+and the player guesses ships location on the GUESS_BOARD. Each ships takes 
+only one cell. Only the GUESS_BOARD is visible to the player. After ten
+turns the game is over.
 
 This application is for entertainment.
 
-The only language that was used is Python3.
+The language that was used is Python3 and Git Bash.
+Git Bash is an application that interfaces with the operating system
+through written commands.
 
 This is a Command Line Application.
 
- The application is dynamic and is deployed on HEROKU server.
+ This application is dynamic and is deployed on HEROKU server.
 
  GitHub was used to store the project's code, after being pushed
  from Git.
@@ -65,7 +72,7 @@ This is a Command Line Application.
 Except KeyValue:
 Probably it could work, but I couldn't make it. I solved this problem by adding some code.
 
-This is in the section, function get_ship_location. Namely within the while loop which loops as many times as the user puts wrong letters or numbers, the program promts the user to enter valid number and figure. However if the user presses enter without entering anything the program crashes. 
+This is in the section, function get_ship_location. Namely within the while loop which loops as many times as the user puts wrong letters or numbers, the program promts the user to enter valid number and letter. However if the user presses enter without entering anything the program crashes. 
 
 The code is as follows:  
     while row not in '12345678':
@@ -105,11 +112,22 @@ on git hub
 
 The game was deployed on the Heroku platform, thus making it accessible to the users.
 
+First the application was deployed by codeanywhere.com, and after that I was unable to
+make additional changes and to reach my deployed application using codeanywhere anymore. The additional
+changes like fixing the bugs, making additional commits and creating this file README.md were made 
+from my local repository, which was cloned from GitHub, to my desktop and using Visual Studio Code and the Command Line Interface (CLI), Git Bash commands namely 
+git remote add heroku https://git.heroku.com/app.git
+git push heroku master
+This happens only after login from Git Bash
+`heroku login`
+which displayed the CLI authentication token.
+For this to happen HEROKU CLI had to be installed and then upgraded to to version 8.9.0
+namely by using
+sudo apt -get update && sudo apt -get update heroku
+
 ## Forking on GitHub
 
-- To create a personal copy of a public repository to contribute to a project
-    
-    Go to GitHub repositoryto fork
+- To create a personal copy of a public repository to contribute to a project go to GitHub repository to fork.
 
     Make changes to the code, add features, fix issues or modify code within your fork, 
     make changes that dont affect the original repository. If you want to send your changes
@@ -117,7 +135,8 @@ The game was deployed on the Heroku platform, thus making it accessible to the u
 
 ## Credits
 
-Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md filey
+Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md filey and to 
+the Codeinstitute personnel.
 
 
 
