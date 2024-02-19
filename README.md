@@ -14,12 +14,14 @@ will generate randomly 5 ships, each in one cell.
 
 This is a one player game.
 
-Please click on the link below to open the application.
+Screenshot for responsive design.
 
  ![The game!](outline.png "The outline from ami.responsivedesign")
 
 
  ### Welcome to the Battleship game!
+
+ Please click on the link below to open the application.
  
  [Battleship](https://battle-d964f125f218.herokuapp.com/)
 
