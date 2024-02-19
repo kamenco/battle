@@ -14,7 +14,7 @@ This is a one player game.
 
 Please click on the link below to open the application.
 
- ![The game!](/assets/outline.png "The outline from ami.responsivedesign")
+ ![The game!](outline.png "The outline from ami.responsivedesign")
 
 
  ### Welcome to the Battleship game! [Battleship](https://battle-d964f125f218.herokuapp.com/)
@@ -40,7 +40,7 @@ This is a Command Line Application.
  ### Flow chart to work out the logic path the program needs to take 
 
 
- ![The SCHEME!](/assets/scheme.jpg "CHART")
+ ![The SCHEME!](scheme.jpg "CHART")
 
 
 
@@ -50,14 +50,14 @@ This is a Command Line Application.
  The application had one bug. Namely the row iteration was not working. Instead of showing 1,2,3,4,5,6,7,8 it showed only 1,1,1,1,1,1,1,1.
  By clearing an empty space the bug was resolved.
 
- ![The row iteration bug!](/assets/bug_rows.png "The bug")
+ ![The row iteration bug!](bug_rows.png "The bug")
 
 
  This game was taken from youtube channel of Knowledge Mavens.
  There is a bug in this code, which appears if the player does not put anything for row or column.
  In that case the program crashes.
 
- ![The empty soace bug!](/assets/bug.png "The bug")
+ ![The empty soace bug!](bug.png "The bug")
 
  If tha player hits enter without typing anything the program crashes. I tried to resolved by
  using 
@@ -87,7 +87,7 @@ The code is as follows:
 
 The testing was made on Code Institute CI Python Linter.
 
-![The SCHEME!](/assets/testing.png "CHART")
+![The SCHEME!](testing.png "CHART")
 
 
 ## Deployment
