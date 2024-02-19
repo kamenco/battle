@@ -1,12 +1,14 @@
 # GAME EXPLANATION
 
-The computer will generate 5 ships on a board and 
-then the player will guess where those 5 ships are located.
+This is one player game, and it has only
+two boards. The computer generates five ships on the HIDDEN_BOARD
+and the player guesses ships location on the GUESS_BOARD. Each ships takes 
+only one cell. Only the GUESS_BOARD is visible to the player. After ten
+turns the game is over.
 
 The player has one board GUESS_BOARD, where he will make his guesses. 
 The hit ship will be marked with X on the GUESS_BOARD (Player's board).
 The miss will be marked with hifen -
-
 The other board HIDDEN_BOARD is where the computer 
 will generate randomly 5 ships, each in one cell.
 
@@ -22,13 +24,6 @@ Please click on the link below to open the application.
  [Battleship](https://battle-d964f125f218.herokuapp.com/)
 
 ## FEATURES
-
-This is one player game, and it has only
-two boards. The computer generates five ships on the HIDDEN_BOARD
-and the player guesses ships location on the GUESS_BOARD. Each ships takes 
-only one cell. Only the GUESS_BOARD is visible to the player. After ten
-turns the game is over.
-
 This application is for entertainment.
 
 The language that was used is Python3 and Git Bash.
