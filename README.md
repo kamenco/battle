@@ -1,4 +1,4 @@
-## INTRODUCTION (GAME EXPLANATION)
+### INTRODUCTION (GAME EXPLANATION)
 
 This is one player game, and it has only
 two boards. The computer generates five ships on the HIDDEN_BOARD
@@ -25,7 +25,7 @@ Screenshot for responsive design.
  
  [Battleship](https://battle-d964f125f218.herokuapp.com/)
 
-## FEATURES
+### FEATURES
 This application is for entertainment.
 
 The language that was used is Python3 and Git Bash, Visual Studio Code.
@@ -95,9 +95,10 @@ The testing was made on Code Institute CI Python Linter.
 
 There was an issue that showed that line No. was exceeding 82 chracters. letters_to_numbers was changed to lsln and the problem was solved.
 There are numerous other errors like 
-  **trailing whitespace** - there is a whitespace between the end of a line and the new line
-  **whitespace before'** - indentation or leading whitespace
-  **expected two blank lines found 0**
+
+    **trailing whitespace** - there is a whitespace between the end of a line and the new line
+    **whitespace before'** - indentation or leading whitespace
+    **expected two blank lines found 0**
 These errors I plan to fix on a later stage as at present I don't have good acces to HEROKU by codeanywhere.
 
 
@@ -120,14 +121,18 @@ First the application was deployed by codeanywhere.com, and after that I was una
 make additional changes and to reach my deployed application using codeanywhere anymore. The additional
 changes like fixing the bugs, making additional commits and creating this file README.md were made 
 from my local repository, which was cloned from GitHub, to my desktop and using Visual Studio Code and the Command Line Interface (CLI), Git Bash commands namely 
-    git remote add heroku https://git.heroku.com/app.git
-    git push heroku master
+
+      git remote add heroku https://git.heroku.com/app.git
+      git push heroku master
+      
 This happens only after login from Git Bash
-    `heroku login`
+   
+      `heroku login`
+
 which displayed the CLI authentication token.
 For this to happen HEROKU CLI had to be installed and then upgraded to to version 8.9.0
 namely by using
-    sudo apt -get update && sudo apt -get update heroku
+      sudo apt -get update && sudo apt -get update heroku
 
 ## Forking on GitHub
 
