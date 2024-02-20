@@ -41,6 +41,15 @@ This is a Command Line Application.
 
  Git was used by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 
+ + The program accepts user inputs, maintains scores, validates the inputs.
+ + Coordinates outside of the board can not be entered.
+ + Player must enter row number and column letter.
+
+### Future Features
+
+ + Have ships larger than one cell
+ + Allow player to select the board size, number of ships and ship sizes.
+
  ### Flow chart to work out the logic path the program needs to take 
 
 
