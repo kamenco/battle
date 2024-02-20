@@ -1,4 +1,4 @@
-# GAME EXPLANATION
+## INTRODUCTION (GAME EXPLANATION)
 
 This is one player game, and it has only
 two boards. The computer generates five ships on the HIDDEN_BOARD
@@ -92,6 +92,13 @@ The code is as follows:
 The testing was made on Code Institute CI Python Linter.
 
 ![The SCHEME!](testing.png "CHART")
+
+There was an issue that showed that line No. was exceeding 82 chracters. letters_to_numbers was changed to lsln and the problem was solved.
+There are numerous other errors like 
+**trailing whitespace** - there is a whitespace between the end of a line and the new line
+**whitespace before'** - indentation or leading whitespace
+**expected two blank lines found 0**
+These errors I plan to fix on a later stage as at present I don't have good acces to HEROKU by codeanywhere.
 
 
 ## Deployment
