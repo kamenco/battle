@@ -28,7 +28,7 @@ Screenshot for responsive design.
 ## FEATURES
 This application is for entertainment.
 
-The language that was used is Python3 and Git Bash.
+The language that was used is Python3 and Git Bash, Visual Studio Code.
 Git Bash is an application that interfaces with the operating system
 through written commands.
 
@@ -107,11 +107,11 @@ The Visual Studio Code was used to create this application.
 
 git add . was  used to add the files to the staging area
 
-git commit -m "Commit message"
+  git commit -m "Commit message"
 This command was used to commit changes to the local repository queue
 ready for the final step
 
-git push - This command was used to push all the committed code to the remote repository
+  git push - This command was used to push all the committed code to the remote repository
 on git hub
 
 The game was deployed on the Heroku platform, thus making it accessible to the users.
@@ -120,14 +120,14 @@ First the application was deployed by codeanywhere.com, and after that I was una
 make additional changes and to reach my deployed application using codeanywhere anymore. The additional
 changes like fixing the bugs, making additional commits and creating this file README.md were made 
 from my local repository, which was cloned from GitHub, to my desktop and using Visual Studio Code and the Command Line Interface (CLI), Git Bash commands namely 
-git remote add heroku https://git.heroku.com/app.git
-git push heroku master
+  git remote add heroku https://git.heroku.com/app.git
+  git push heroku master
 This happens only after login from Git Bash
-`heroku login`
+  `heroku login`
 which displayed the CLI authentication token.
 For this to happen HEROKU CLI had to be installed and then upgraded to to version 8.9.0
 namely by using
-sudo apt -get update && sudo apt -get update heroku
+  sudo apt -get update && sudo apt -get update heroku
 
 ## Forking on GitHub
 
@@ -139,8 +139,7 @@ sudo apt -get update && sudo apt -get update heroku
 
 ## Credits
 
-Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md filey and to 
-the Codeinstitute personnel.
+Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md file, to Marco from the techical issues,and cohort facilitator Laura from Codeinstitute.
 
 
 
