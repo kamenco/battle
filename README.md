@@ -1,4 +1,4 @@
-### INTRODUCTION (GAME EXPLANATION)
+### Introduction (Game Explanation)
 
 This is one player game, and it has only
 two boards. The computer generates five ships on the HIDDEN_BOARD
@@ -25,21 +25,9 @@ Screenshot for responsive design.
  
  [Battleship](https://battle-d964f125f218.herokuapp.com/)
 
-### FEATURES
+### Features
+
 This application is for entertainment.
-
-The language that was used is Python3 and Git Bash, Visual Studio Code.
-Git Bash is an application that interfaces with the operating system
-through written commands.
-
-This is a Command Line Application.
-
- This application is dynamic and is deployed on HEROKU server.
-
- GitHub was used to store the project's code, after being pushed
- from Git.
-
- Git was used by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 
  + The program accepts user inputs, maintains scores, validates the inputs.
  + Coordinates outside of the board can not be entered.
@@ -110,6 +98,28 @@ There are numerous other errors like
     **expected two blank lines found 0**
 These errors I plan to fix on a later stage as at present I don't have good acces to HEROKU by codeanywhere.
 
+### Programs and software used for creating this project
+
+The language that was used is Python3 and Git Bash, Visual Studio Code.
+Git Bash is an application that interfaces with the operating system
+through written commands.
+
+This is a Command Line Application.
+
+ This application is dynamic and is deployed on HEROKU server.
+
+ GitHub was used to store the project's code, after being pushed
+ from Git.
+
+ Git was used by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+
+ Several python functions were used:
+
+  + print_board
+  + create_ships
+  + get_ship_location
+  + count_hit_ships
+    + while loop is used in the function for validation
 
 ## Deployment
 
