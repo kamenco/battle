@@ -67,11 +67,11 @@ def get_ship_location():
     # Asks the user what row and what column the ship is
     row = input('Please enter a ship row 1-8: ')
    
-    while row not in '12345678' or row in " " :
+    while row not in set('12345678') or row in " " :
         print("Please enter a valid row")
         row = input('Please enter a ship row 1-8: ')
     column = input("Please enter a ship column A-H: ").upper() 
-    while column not in 'ABCDEFGH' or column in " " :
+    while column not in set('ABCDEFGH') or column in " " :
         print("Please enter a valid column")
         column = input("Please enter a ship column A-H: ").upper()
     return int(row) - 1, lsns[column]
