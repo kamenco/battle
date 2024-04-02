@@ -93,7 +93,7 @@ It turned out that the program crashes if the user puts two consecutive numbers 
 
 Here is the screenshot showing the bug fix.
 
-![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug".)
+![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug")
 
 ## Testing
 
