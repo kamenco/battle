@@ -58,7 +58,7 @@ This application is for entertainment.
  There is a bug in this code, which appears if the player does not put anything for row or column.
  In that case the program crashes.
 
- ![The empty soace bug!](bug.png "The bug")
+ ![The empty space bug!](bug.png "The bug")
 
  If tha player hits enter without typing anything the program crashes. I tried to resolved by
  using 
@@ -83,6 +83,15 @@ The code is as follows:
         or row in " ":
     This prevents the program from crashing.
 
+It turned out that the program crashes if the user puts two consecutive numbers or letters. This problem is solved with additional improvement of the control flow by putting set in front of the string set('12345678'), since turning the string into a set(or a list or a tuple) will break it into individual characters. This idea was accepted from stackoverflow.com
+
+The code is as follows:  
+    while row not in set('12345678') or " ":
+        print("Please enter a valid row")
+        row = input('Please enter a ship row 1-8: ')
+    the program doesn't crash when the user puts 12 or AC etc.
+
+    ![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug".)
 
 ## Testing
 
