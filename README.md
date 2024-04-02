@@ -91,7 +91,7 @@ The code is as follows:
         row = input('Please enter a ship row 1-8: ')
     the program doesn't crash when the user puts 12 or AC etc.
 
-    ![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug".)
+![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug".)
 
 ## Testing
 
