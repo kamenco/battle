@@ -81,8 +81,8 @@ def get_ship_location():
                 print("Please enter a valid column") 
             column = input("Please enter a ship column A-H: ").upper() 
             # Use a dictionary to map columns to indexes 
-            column_index_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7} 
-            return int(row) - 1, column_index_map[column] 
+            
+            return int(row) - 1, lettersnumbers[column] 
         except ValueError as ve: 
             print(f"A ValueError occurred: {ve}. Please try again.")
         except KeyError: 
