@@ -96,7 +96,8 @@ Here is the screenshot showing the bug fix.
 ![The two numbers two letters bug!](two_letter_bug.png "The two letter/figure bug")
 
 All the control flow was taken out. Try and Except KeyError message added as follows:
-      except KeyError as ex: 
+       The code is as follows:
+       except KeyError as ex: 
             print(f"An unexpected error occurred: {ex}. Please try again.")
 
   The program does not break but doesn't show the KeyError message. The message from the while block is displayed.
