@@ -67,11 +67,12 @@ def get_ship_location():
         try: 
             # Asks the user what row and what column the ship is 
             row = input('Please enter a ship row 1-8: ') 
-            while row not in set('12345678') or row.strip() == "": 
+            while row not in set('12345678') or row == "": 
                 print("Please enter a valid row") 
             row = input('Please enter a ship row 1-8: ') 
             column = input("Please enter a ship column A-H: ").upper() 
-            while column not in set('ABCDEFGH') or column.strip() == "": 
+            
+            while column not in set('ABCDEFGH') or column == "": 
                 print("Please enter a valid column") 
             column = input("Please enter a ship column A-H: ").upper() 
             # Use a dictionary to map columns to indexes 

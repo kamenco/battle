@@ -68,26 +68,22 @@ def create_ships(board):
     # set it to 'X'
 
 def get_ship_location(): 
-    while True: 
-        try: 
+     
+        try:
             # Asks the user what row and what column the ship is 
             row = input('Please enter a ship row 1-8: ') 
-            while row not in set('12345678') or row.strip() == "": 
+            while row not in '12345678': 
                 print("Please enter a valid row") 
-            row = input('Please enter a ship row 1-8: ') 
+                row = input('Please enter a ship row 1-8: ') 
             column = input("Please enter a ship column A-H: ").upper() 
             
-            while column not in set('ABCDEFGH') or column.strip() == "": 
+            while column not in 'ABCDEFGH': 
                 print("Please enter a valid column") 
-            column = input("Please enter a ship column A-H: ").upper() 
+                column = input("Please enter a ship column A-H: ").upper() 
             # Use a dictionary to map columns to indexes 
-            
+        
             return int(row) - 1, lettersnumbers[column] 
-        except ValueError as ve: 
-            print(f"A ValueError occurred: {ve}. Please try again.")
-        except KeyError: 
-            print("Please enter a valid column letter from A to H.")
-        except Exception as ex: 
+        except KeyError as ex: 
             print(f"An unexpected error occurred: {ex}. Please try again.")
     # Wrap this in try and except because if user doesnt put anything
     # the program will crash 

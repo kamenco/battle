@@ -17,4 +17,3 @@ def get_ship_location():
         except KeyError: print("Please enter a valid column letter from A to H.")
         except Exception as ex: print(f"An unexpected error occurred: {ex}. Please try again.")
  
-AI T
