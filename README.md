@@ -126,7 +126,7 @@ All the control flow was taken out. Try and Except KeyError message added as fol
 
 Here is an example when the program throws except message. Note that the first line is l not 1.
 
-![This shows that the try except block works.!](try_except_error.png "The no exceptio message bug")
+![This shows that the try except block works.!](try_except error.png "The no exceptio message bug")
   
 
 ## Testing
