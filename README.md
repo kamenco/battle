@@ -109,15 +109,15 @@ All the control flow was taken out. Try and Except KeyError message added as fol
 
 The testing was made on Code Institute CI Python Linter.
 
-![The SCHEME!](testing.png "CHART")
+![The SCHEME!](CL_Python_Linter.png "CHART")
 
-There was an issue that showed that line No. was exceeding 82 chracters. letters_to_numbers was changed to lsln and the problem was solved.
+There was an issue that showed that line No. was exceeding 82 chracters. Problem solved by transfering part of the code on a new line.
 There are numerous other errors like 
 
     **trailing whitespace** - there is a whitespace between the end of a line and the new line
     **whitespace before'** - indentation or leading whitespace
     **expected two blank lines found 0**
-These errors I plan to fix on a later stage as at present I don't have good acces to HEROKU by codeanywhere.
+These errors were checked and fixed with the python linter.
 
 ### Programs and software used for creating this project
 
