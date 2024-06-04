@@ -124,7 +124,7 @@ All the control flow was taken out. Try and Except KeyError message added as fol
 
 ![The no except message bug!](no_except_mess.png "The no exceptio message bug")
 
-Here is an example when the program throws except message. Note that the first line is l not 1.
+Here is an example when the program throws except message. ValueError occured: invalid literal for int() with base 10: 'd' Please try again. Note that the first line is l not 1.
 
 ![This shows that the try except block works.!](try_except_error.png "The no exceptio message bug")
   
