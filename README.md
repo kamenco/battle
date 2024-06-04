@@ -97,12 +97,36 @@ Here is the screenshot showing the bug fix.
 
 All the control flow was taken out. Try and Except KeyError message added as follows:
   
-       except KeyError as ex: 
+        while True:
+        try:
+            # Asks the user what row and what column the ship is
+            row = input('Please enter a ship row 1-8: ')
+            while row not in set('12345678') or row == "":
+                print("Please enter a valid row")
+                row = input('Please enter a ship row 1-8: ')
+            column = input("Please enter a ship column A-H: ").upper()
+            while column not in set('ABCDEFGH') or column == "":
+                print("Please enter a valid column")
+                column = input("Please enter a ship column A-H: ").upper()
+            # Use a dictionary to map columns to indexes
+            column_index_map = {
+                            'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7
+                               }
+            return int(row) - 1, column_index_map[column]
+        except ValueError as ve:
+            print(f"A ValueError occurred: {ve}. Please try again.")
+        except KeyError:
+            print("Please enter a valid column letter from A to H.")
+        except Exception as ex:
             print(f"An unexpected error occurred: {ex}. Please try again.")
 
-  The program does not break but doesn't show the KeyError message. The message from the while block is displayed.
+  The program does not break, and usually doesn't show the KeyError message. The message from the while block is displayed.
 
 ![The no except message bug!](no_except_mess.png "The no exceptio message bug")
+
+Here is an example when the program throws except message. Note that the first line is l not 1.
+
+![This shows that the try except block works.!](try_except_error.png "The no exceptio message bug")
   
 
 ## Testing
@@ -184,7 +208,7 @@ namely by using
 
 ## Credits
 
-Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md file, to Marco from the techical issues,and cohort facilitator Laura from Codeinstitute.
+Special thanks to my mentor Medale Oluwafemi for helping me creating this README.md file, to Marco from the techical issues,and cohort facilitator Laura from Codeinstitute. The idea was taken from youtube channel of Knowledge Mavens and improved with try except block.
 
 
 
