@@ -109,7 +109,7 @@ All the control flow was taken out. Try and Except KeyError message added as fol
 
 The testing was made on Code Institute CI Python Linter.
 
-![The SCHEME!](CL_Python_Linter.png "CHART")
+![The image from CI python linter!](CI_Python_Linter.png "CHART")
 
 There was an issue that showed that line No. was exceeding 82 chracters. Problem solved by transfering part of the code on a new line.
 There are numerous other errors like 
