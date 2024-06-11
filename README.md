@@ -187,6 +187,7 @@ This is a Command Line Application.
   + get_ship_location
   + count_hit_ships
     + while loop is used in the function for validation
+  + reveal_hidden_board
 
 ## Deployment
 
