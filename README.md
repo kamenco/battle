@@ -127,6 +127,14 @@ All the control flow was taken out. Try and Except KeyError message added as fol
 Here is an example when the program throws except message. ValueError occured: invalid literal for int() with base 10: 'd' Please try again. Note that the first line is l not 1.
 
 ![This shows that the try except block works.!](try_except_error.png "The no exceptio message bug")
+
+
+It is explained in the beginingthat only the guess board is visible. So the code was updated so that the hidden board to be displayed only if the gamer wants to do that.
+![This shows the hidden board. The old version!](hidden.png "The hidden board is shown")
+
+The code was updated with the option the hidden board to be displayed only if the gamer wants to.
+
+![This shows the hidden board. The new version!](hidden_two.png "The hidden board is shown at the will of the gamer.")
   
 
 ## Testing
