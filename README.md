@@ -129,12 +129,26 @@ Here is an example when the program throws except message. ValueError occured: i
 ![This shows that the try except block works.!](try_except_error.png "The no exceptio message bug")
 
 
-It is explained in the beginingthat only the guess board is visible. So the code was updated so that the hidden board to be displayed only if the gamer wants to do that.
+It is explained in the Game Explanation only the guess board is visible. So the code was updated so that the hidden board to be displayed only if the gamer wants to do that.
 ![This shows the hidden board. The old version!](hidden.png "The hidden board is shown")
 
 The code was updated with the option the hidden board to be displayed only if the gamer wants to.
 
 ![This shows the hidden board. The new version!](hidden_two.png "The hidden board is shown at the will of the gamer.")
+
+This is achieved with the creation of new function
+def reveal_hidden_board():
+    """
+    Prints the hidden board for the player to view.
+    """
+    print("HIDDEN BOARD:")
+    print_board(HIDDEN_BOARD)
+
+    view_hidden = input(
+        "Would you like to view the hidden board? (yes/no): "
+        ).strip().lower()
+    if view_hidden == 'yes':
+        reveal_hidden_board()
   
 
 ## Testing
