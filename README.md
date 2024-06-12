@@ -139,9 +139,10 @@ The code was updated with the option the hidden board to be displayed only if th
 This is achieved with the creation of new function
 
    def reveal_hidden_board():
-    """
-    Prints the hidden board for the player to view.
-    """
+   
+       """
+       Prints the hidden board for the player to view.
+       """
     print("HIDDEN BOARD:")
     print_board(HIDDEN_BOARD)
 
@@ -158,13 +159,7 @@ The testing was made on Code Institute CI Python Linter.
 
 ![The image from CI python linter!](CI_Python_Linter.png "CHART")
 
-There was an issue that showed that line No. was exceeding 82 chracters. Problem solved by transfering part of the code on a new line.
-There are numerous other errors like 
-
-    **trailing whitespace** - there is a whitespace between the end of a line and the new line
-    **whitespace before'** - indentation or leading whitespace
-    **expected two blank lines found 0**
-These errors were checked and fixed with the python linter.
+There are no errors as shown on the screenshot.
 
 ### Programs and software used for creating this project
 
