@@ -137,7 +137,8 @@ The code was updated with the option the hidden board to be displayed only if th
 ![This shows the hidden board. The new version!](hidden_two.png "The hidden board is shown at the will of the gamer.")
 
 This is achieved with the creation of new function
-def reveal_hidden_board():
+
+   def reveal_hidden_board():
     """
     Prints the hidden board for the player to view.
     """
